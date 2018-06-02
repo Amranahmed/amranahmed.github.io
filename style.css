@@ -1,57 +1,120 @@
-*{margin:0;padding:0;outline:0}
-body{font-family:arial;font-size:14px;line-height:18px;color:#000}
-.templete {
-	width: 1050px;
-	margin: 0 auto;
-}
-.headersection {
-	height: 200px;
-	background: #8185E3;
+*{margin:0; padding:0; outline:0}
+body{font-family:arial;font-size:16px; line-height:18px; color:#000;}
+.templete{width:960px;margin:0 auto;}
+.clear{overflow:hidden;}
+.headersection{
+	height:90px;
+	background:green;
 }
 .headersection h1 {
-    font-size: 60px;
-    padding: 34px;
+    font-size: 50px;
     text-align: center;
+    padding-top: 35px;
 }
-.headersection p {
-    text-align: center;
-    font-size: 30px;
-	color:#00ff00;
+.Navsection{
+	background:#9b999a
 }
-.navsection {
-	background: #f82727;
-	height: 40px;
+.Navsection ul{margin:0; padding:0; list-style:none;}
+.Navsection ul li{display:block; float:left;}
+.Navsection ul li a {
+	background: #9b999a;
+	color: #fbfbfb;
+	display: block;
+	padding: 5px 10px;
+	text-decoration: none;
+	margin: 5px;
+	font-size: 25px;
+	font-weight: bold;
 }
-.navsection p {
-	font-size: 30px;
-	padding-left: 50px;
-	padding-top: 10px;
-	color: #fff;
+.Navsection ul li a:hover{
+	background:#fff;
+	color:black;
 }
-.contantsection{}
+.Contantsection{
+	background:#fff;
+}
 .maincontant {
 	width: 600px;
+	background: #e7a7a7;
 	float: left;
-	padding-left: 50px;
+	padding: 10px;
+	margin: 10px 10px 10px 0px;
+}
+.maincontant p {
+	font-size: 16px;
+	line-height: 25px;
+	padding-bottom: 15px;
+}
+.samepost{}
+.samepost h2 {
+	padding: 10px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #555;
+}
+.samepost img {
+	float: left;
+	width: 230px;
+	margin-right: 10px;
 	background: #fff;
-	margin-top: 10px;
+	padding: 10px;
+	border: 2px solid #120d0f;
 }
-.maincontant p{
-	font-size: 20px;
-	line-height: 40px;
+.samepost p {
+	font-size: 16px;
+	line-height: 25px;
+	text-align: justify;
 }
-.maincontant img {
-	width: 300px;
-	float: left;
-	margin-right: 5px;
-}
-.side-bar{
-	width:300px;
-	background:#fff;
+.readmore{
 	float:right;
-	padding-right:30px;
-	margin-top:10px;
 }
-.footersection{}
+.readmore a {
+	text-decoration: none;
+	background: #fff;
+	display: block;
+	padding: 5px 10px;
+	font-size: 18px;
+	color: #333;
+	border: 2px solid #9b999a;
+	border-radius: 15px;
+}
+.readmore a:hover{
+	background:black;
+	color:yellow;
+}
+.sidebar {
+	width: 310px;
+	background: #a7c99e;
+	float: right;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.samesidebar{}
+.samesidebar h2 {
+	background: #756775 none repeat scroll 0 0;
+	padding: 10px;
+	margin-bottom: 5px;
+	color: #fff;
+	border-bottom: 4px solid #362020;
+}
+.samesidebar p {
+	margin-bottom: 10px;
+}
+.footersection{
+	height:100px;
+	background:#b08989;
+}
+.footersection h1 {
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 35px;
+	font-weight: bold;
+}
+.
+.
+.
+.
 .
 .
